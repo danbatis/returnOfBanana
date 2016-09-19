@@ -1,0 +1,3187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+SceneSettings:
+  m_ObjectHideFlags: 0
+  m_PVSData: 
+  m_PVSObjectsArray: []
+  m_PVSPortalsArray: []
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    accuratePlacement: 0
+    minRegionArea: 2
+    cellSize: 0.16666667
+    manualCellSize: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &5609481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013099749100, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 5609482}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightLittle0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5609482
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013771580964, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 5609481}
+  m_LocalRotation: {x: 0.08898765, y: 0.7092772, z: -0.09103315, w: 0.6933398}
+  m_LocalPosition: {x: 0.31388, y: -4.7175597e-12, z: -0.239653}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1072498756}
+  m_Father: {fileID: 1907813186}
+  m_RootOrder: 1
+--- !u!1 &34971190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010950651968, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 34971191}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightFootTip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &34971191
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013125149228, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 34971190}
+  m_LocalRotation: {x: 1, y: -0.000017416549, z: -1.0664561e-21, w: 6.123234e-17}
+  m_LocalPosition: {x: -2.3314684e-15, y: 8.881784e-16, z: 0.706104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1471410772}
+  m_RootOrder: 0
+--- !u!1 &52896814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013673960746, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 52896815}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightAnkle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52896815
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010839133324, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 52896814}
+  m_LocalRotation: {x: 0.77066594, y: -0.63235706, z: 0.047927547, w: 0.06246301}
+  m_LocalPosition: {x: 2.975123, y: 0.013595227, z: 0.57105756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1471410772}
+  m_Father: {fileID: 604792511}
+  m_RootOrder: 0
+--- !u!1 &94424093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 94424097}
+  - 33: {fileID: 94424096}
+  - 65: {fileID: 94424095}
+  - 23: {fileID: 94424094}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &94424094
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94424093}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!65 &94424095
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94424093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &94424096
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94424093}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &94424097
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 94424093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!1 &104719974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012052108278, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 104719975}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:bothArmsCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &104719975
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011563058304, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 104719974}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.027050432, y: 3.3064632, z: -0.00000035762787}
+  m_LocalScale: {x: 0.75648564, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 495953571}
+  - {fileID: 785600266}
+  m_Father: {fileID: 1825038427}
+  m_RootOrder: 0
+--- !u!1 &172402727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013143589210, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 172402728}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightThigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &172402728
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011504882540, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 172402727}
+  m_LocalRotation: {x: -0.5134993, y: 0.8372367, z: 0.122817166, w: -0.14237}
+  m_LocalPosition: {x: 0.115992285, y: -0.9049034, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 604792511}
+  m_Father: {fileID: 1311458316}
+  m_RootOrder: 1
+--- !u!1 &214748570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 214748572}
+  - 108: {fileID: 214748571}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &214748571
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214748570}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &214748572
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214748570}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!1 &220135474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011754623480, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 220135475}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightMiddle0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &220135475
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012158759926, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 220135474}
+  m_LocalRotation: {x: 0.07368492, y: 0.7095474, z: -0.075036615, w: 0.6967658}
+  m_LocalPosition: {x: 0.33243, y: 6.6835426e-13, z: 0.033908}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 588651434}
+  m_Father: {fileID: 1907813186}
+  m_RootOrder: 2
+--- !u!1 &261678331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010098998090, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 261678332}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261678332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010508366948, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 261678331}
+  m_LocalRotation: {x: 0.26106626, y: 0.010489534, z: -0.0028370223, w: 0.96525973}
+  m_LocalPosition: {x: 5.551115e-17, y: 8.881784e-16, z: 0.20865}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1482707109}
+  m_Father: {fileID: 589406418}
+  m_RootOrder: 0
+--- !u!1 &349182478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010013542850, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 349182479}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &349182479
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010561356990, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 349182478}
+  m_LocalRotation: {x: 0, y: 0.6932009, z: -0, w: 0.72074443}
+  m_LocalPosition: {x: -2.220446e-16, y: 4.440892e-16, z: 0.42716154}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1736718990}
+  - {fileID: 1016346207}
+  - {fileID: 359744528}
+  - {fileID: 1747560900}
+  - {fileID: 1388712586}
+  m_Father: {fileID: 539516224}
+  m_RootOrder: 0
+--- !u!1 &359744527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011315295036, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 359744528}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftMiddle0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &359744528
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011938676058, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 359744527}
+  m_LocalRotation: {x: 0.053654704, y: -0.71140987, z: 0.054639112, w: 0.6985927}
+  m_LocalPosition: {x: -0.3324315, y: -2.220446e-15, z: 0.033908315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 808686716}
+  m_Father: {fileID: 349182479}
+  m_RootOrder: 2
+--- !u!1 &362755081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010607405778, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 362755082}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftAnkle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &362755082
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014103627022, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 362755081}
+  m_LocalRotation: {x: 0.12585428, y: -0.0045867064, z: -0.6050057, w: 0.7861983}
+  m_LocalPosition: {x: -2.9751177, y: -0.013595168, z: -0.5710568}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1506971855}
+  m_Father: {fileID: 1406617011}
+  m_RootOrder: 0
+--- !u!1 &403020066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013280122668, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 403020067}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &403020067
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010763595508, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 403020066}
+  m_LocalRotation: {x: 0.2004232, y: 0.13984244, z: -0.070841886, w: 0.9670864}
+  m_LocalPosition: {x: 8.881784e-16, y: 2.220446e-15, z: 0.28037155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2019816131}
+  m_RootOrder: 0
+--- !u!1 &443862980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012692290254, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 443862981}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftFootTip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443862981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013235097600, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 443862980}
+  m_LocalRotation: {x: 0.007991714, y: 0.016674116, z: 0.00013327756, w: 0.99982905}
+  m_LocalPosition: {x: -1.110223e-16, y: 1.7763568e-15, z: 0.7061042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1506971855}
+  m_RootOrder: 0
+--- !u!1 &450214259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010916573528, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 450214260}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &450214260
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013154899036, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 450214259}
+  m_LocalRotation: {x: 5.99962e-17, y: 0.9998002, z: -5.99962e-17, w: -0.019987956}
+  m_LocalPosition: {x: -0, y: 4.440892e-16, z: 0.23201692}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1415284060}
+  m_RootOrder: 0
+--- !u!1 &495953570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013289407754, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 495953571}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftHandCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &495953571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010555503588, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 495953570}
+  m_LocalRotation: {x: 0.26987338, y: -0.37785533, z: 0.51475006, w: 0.72071224}
+  m_LocalPosition: {x: -2.135467, y: -3.290223, z: -0.3112435}
+  m_LocalScale: {x: 1.3121029, y: 1.3121029, z: 1.5584342}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 104719975}
+  m_RootOrder: 0
+--- !u!1 &539516223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012133260262, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 539516224}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftWrist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &539516224
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010086064350, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 539516223}
+  m_LocalRotation: {x: -0.02856998, y: 0.05726083, z: -0.0002191381, w: 0.9979504}
+  m_LocalPosition: {x: 9.992007e-16, y: -8.881784e-16, z: 1.4909678}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 349182479}
+  m_Father: {fileID: 1195003419}
+  m_RootOrder: 0
+--- !u!1 &578294577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010168273512, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 578294578}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:transform10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &578294578
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013160881748, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 578294577}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.010554695, y: 0.07068861, z: 0}
+  m_LocalScale: {x: 0.3398207, y: 0.36764228, z: 0.2782026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1311458316}
+  m_Father: {fileID: 1490571725}
+  m_RootOrder: 1
+--- !u!1 &588651433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012214642852, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 588651434}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &588651434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013883464912, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 588651433}
+  m_LocalRotation: {x: 0.14145564, y: 0.0017625876, z: -0.00025186088, w: 0.989943}
+  m_LocalPosition: {x: -2.220446e-16, y: -4.440892e-16, z: 0.25506213}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1801557251}
+  m_Father: {fileID: 220135475}
+  m_RootOrder: 0
+--- !u!1 &589406417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013672801234, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 589406418}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightRing0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &589406418
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012880136362, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 589406417}
+  m_LocalRotation: {x: 0.064823635, y: 0.7041292, z: -0.064823635, w: 0.7041292}
+  m_LocalPosition: {x: 0.31852, y: -2.344347e-12, z: -0.119101}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 261678332}
+  m_Father: {fileID: 1907813186}
+  m_RootOrder: 3
+--- !u!1 &604792510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011259703900, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 604792511}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightKnee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &604792511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013744720392, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 604792510}
+  m_LocalRotation: {x: 0.000623776, y: -0.11866289, z: 0.010462117, w: 0.9928793}
+  m_LocalPosition: {x: 2.276441, y: -0.00000043178397, z: -0.15415013}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 52896815}
+  m_Father: {fileID: 172402728}
+  m_RootOrder: 0
+--- !u!1 &621436462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010317811000, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 621436463}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &621436463
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013851654580, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 621436462}
+  m_LocalRotation: {x: 0.5252304, y: -0.43808848, z: 0.22987773, w: 0.69236386}
+  m_LocalPosition: {x: -2.220446e-16, y: 0, z: 0.6634016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1195003419}
+  m_Father: {fileID: 832446700}
+  m_RootOrder: 0
+--- !u!1 &650150833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010675956338, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 650150834}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightWrist
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &650150834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013563230732, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 650150833}
+  m_LocalRotation: {x: -0.06070849, y: -0.028825335, z: -0.04311789, w: 0.99680716}
+  m_LocalPosition: {x: -9.992007e-16, y: 0, z: 1.4909662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1907813186}
+  m_Father: {fileID: 913977242}
+  m_RootOrder: 0
+--- !u!1 &658010793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011470545494, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 658010794}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:translateBodyCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658010794
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010207483040, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 658010793}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.7347235e-18, y: -0.08468931, z: -0.19340444}
+  m_LocalScale: {x: 0.7148707, y: 0.77339804, z: 0.5852465}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1490571725}
+  m_RootOrder: 2
+--- !u!1 &661585928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010389777498, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 661585929}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightFootCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &661585929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013822535366, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 661585928}
+  m_LocalRotation: {x: 0, y: 0.25993928, z: -0, w: 0.965625}
+  m_LocalPosition: {x: 1.6160703, y: -3.0931923, z: -2.0584345}
+  m_LocalScale: {x: 1.3121029, y: 1.3121029, z: 2}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1173123616}
+  m_Father: {fileID: 1910730366}
+  m_RootOrder: 1
+--- !u!1 &701017741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012831434432, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 701017742}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &701017742
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011608967764, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 701017741}
+  m_LocalRotation: {x: 0.5100458, y: 0.2861483, z: -0.02962167, w: 0.81061393}
+  m_LocalPosition: {x: -1.110223e-16, y: 0, z: 0.6634037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 913977242}
+  m_Father: {fileID: 1877124119}
+  m_RootOrder: 0
+--- !u!1 &712808333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014156825664, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 712808334}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftLittle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712808334
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010772239040, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 712808333}
+  m_LocalRotation: {x: 0.32242453, y: 0.000750868, z: -0.00025575698, w: 0.9465949}
+  m_LocalPosition: {x: -4.9404925e-15, y: 1.3322676e-15, z: 0.19479367}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1293774673}
+  m_Father: {fileID: 1185740938}
+  m_RootOrder: 0
+--- !u!1 &731501331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013982008776, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 731501332}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightIndicator2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &731501332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012214665804, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 731501331}
+  m_LocalRotation: {x: 0.15528077, y: -0.008259517, z: 0.0012983384, w: 0.987835}
+  m_LocalPosition: {x: 8.881784e-16, y: 5.6529448e-11, z: 0.21175858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1278711315}
+  m_Father: {fileID: 943804059}
+  m_RootOrder: 0
+--- !u!1 &785600265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011454549928, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 785600266}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightHandCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &785600266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011923798244, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 785600265}
+  m_LocalRotation: {x: 0.27382883, y: 0.4340306, z: -0.45795897, w: 0.72588485}
+  m_LocalPosition: {x: 2.0804336, y: -3.2140145, z: -0.9809091}
+  m_LocalScale: {x: 1.3121029, y: 1.3121029, z: 1.558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 104719975}
+  m_RootOrder: 1
+--- !u!1 &808686715
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012917733294, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 808686716}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftMiddle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &808686716
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013410061572, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 808686715}
+  m_LocalRotation: {x: 0.12015126, y: -0.0017650649, z: 0.00021362265, w: 0.99275404}
+  m_LocalPosition: {x: 1.6653345e-16, y: -2.220446e-15, z: 0.25505683}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1467591779}
+  m_Father: {fileID: 359744528}
+  m_RootOrder: 0
+--- !u!1 &829309293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010209806240, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 829309294}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:collar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &829309294
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010784228792, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 829309293}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1586751, y: 0.06908963, z: 1.1918392e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 832446700}
+  - {fileID: 1180867746}
+  - {fileID: 1877124119}
+  m_Father: {fileID: 1899476692}
+  m_RootOrder: 0
+--- !u!1 &832446699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014246593674, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 832446700}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &832446700
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012338559908, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 832446699}
+  m_LocalRotation: {x: -0.6206953, y: 0.6640672, z: 0.24292955, w: 0.33872902}
+  m_LocalPosition: {x: 0.04319738, y: 0.7292514, z: 0.65352774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 621436463}
+  m_Father: {fileID: 829309294}
+  m_RootOrder: 0
+--- !u!1 &836634349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011404405948, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 836634350}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &836634350
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011900106600, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 836634349}
+  m_LocalRotation: {x: -0.008620562, y: 0.00000020486372, z: 0.99996287, w: 0.000000001766106}
+  m_LocalPosition: {x: 2.7755576e-16, y: 8.970602e-14, z: 0.26895997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1801557251}
+  m_RootOrder: 0
+--- !u!1001 &843099627
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.887
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+  m_RootGameObject: {fileID: 939677379}
+  m_IsPrefabParent: 0
+--- !u!1 &871371762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010062232760, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 871371763}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftFootTipCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &871371763
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013947994204, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 871371762}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.009811113, y: -0.0034263495, z: 0.36610413}
+  m_LocalScale: {x: 0.7621353, y: 0.7621353, z: 0.5}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1471779360}
+  m_RootOrder: 0
+--- !u!1 &913977241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013244153168, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 913977242}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightElbow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913977242
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010718334176, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 913977241}
+  m_LocalRotation: {x: -0.007752118, y: -0.36946002, z: 0.0057060663, w: 0.9291968}
+  m_LocalPosition: {x: 4.3715032e-16, y: 0, z: 1.7862595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 650150834}
+  m_Father: {fileID: 701017742}
+  m_RootOrder: 0
+--- !u!1 &939677379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+  m_PrefabInternal: {fileID: 843099627}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 939677382}
+  - 33: {fileID: 939677381}
+  - 23: {fileID: 939677380}
+  m_Layer: 0
+  m_Name: cubeTest_meter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &939677380
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2,
+    type: 3}
+  m_PrefabInternal: {fileID: 843099627}
+  m_GameObject: {fileID: 939677379}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d0d46afa761662442bb4d4a144c3d6df, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &939677381
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2,
+    type: 3}
+  m_PrefabInternal: {fileID: 843099627}
+  m_GameObject: {fileID: 939677379}
+  m_Mesh: {fileID: 4300000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+--- !u!4 &939677382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 96f5ca7363bbd1c4fab3ef4ccb4ff6a2, type: 3}
+  m_PrefabInternal: {fileID: 843099627}
+  m_GameObject: {fileID: 939677379}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.887, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1 &943804058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011652541866, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 943804059}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightIndicator1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &943804059
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010208821948, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 943804058}
+  m_LocalRotation: {x: 0.15131296, y: 0.008264665, z: -0.0012651627, w: 0.9884506}
+  m_LocalPosition: {x: -0, y: 5.6268323e-11, z: 0.25916436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 731501332}
+  m_Father: {fileID: 1294649137}
+  m_RootOrder: 0
+--- !u!1 &1016346206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012069376630, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1016346207}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftLittle0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1016346207
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012162425360, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1016346206}
+  m_LocalRotation: {x: 0.049603004, y: -0.7132923, z: 0.050743155, w: 0.6972652}
+  m_LocalPosition: {x: -0.31388497, y: -1.3322676e-15, z: -0.2396529}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1185740938}
+  m_Father: {fileID: 349182479}
+  m_RootOrder: 1
+--- !u!1 &1029043991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013466435238, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1029043992}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1029043992
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011566654824, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1029043991}
+  m_LocalRotation: {x: -0.01998672, y: -1.0211723e-17, z: 0.99980026, w: -6.1399784e-17}
+  m_LocalPosition: {x: 3.8857806e-16, y: 7.5939255e-14, z: 0.23202537}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1482707109}
+  m_RootOrder: 0
+--- !u!1 &1029525377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013460182720, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1029525378}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1029525378
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013120134440, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1029525377}
+  m_LocalRotation: {x: 0.9686973, y: 0.043556873, z: 0.14544384, w: -0.19640362}
+  m_LocalPosition: {x: 1.7763568e-15, y: 0, z: 0.2803743}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1488523891}
+  m_RootOrder: 0
+--- !u!1 &1072498755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010689468640, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1072498756}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightLittle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1072498756
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013055468864, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1072498755}
+  m_LocalRotation: {x: 0.22292124, y: 0.0005257171, z: -0.000120218654, w: 0.9748363}
+  m_LocalPosition: {x: -0, y: 0, z: 0.20407268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2022942842}
+  m_Father: {fileID: 5609482}
+  m_RootOrder: 0
+--- !u!1 &1081147724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1081147728}
+  - 33: {fileID: 1081147727}
+  - 64: {fileID: 1081147726}
+  - 23: {fileID: 1081147725}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1081147725
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1081147724}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5902ac2a9016b0b4486834b71007245d, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!64 &1081147726
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1081147724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1081147727
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1081147724}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1081147728
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1081147724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 418.0581, y: 418.05814, z: 418.05814}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+--- !u!1 &1118827094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013632816002, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1118827095}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightLittle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1118827095
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014075896260, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1118827094}
+  m_LocalRotation: {x: -0.011109852, y: 0.00000019214556, z: 0.9999383, w: 0.0000000021348405}
+  m_LocalPosition: {x: 2.1094237e-15, y: 6.128431e-14, z: 0.20870152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 2022942842}
+  m_RootOrder: 0
+--- !u!1 &1173123615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012618176488, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1173123616}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightFootTipCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1173123616
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014179097464, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1173123615}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.023154927, y: 0.0000035451922, z: 0.36616766}
+  m_LocalScale: {x: 0.7621353, y: 0.7621353, z: 0.5}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 661585929}
+  m_RootOrder: 0
+--- !u!1 &1180867745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014009659358, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1180867746}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1180867746
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010914494040, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1180867745}
+  m_LocalRotation: {x: -0.7070859, y: 0.0054336833, z: 0.0054336833, w: 0.7070859}
+  m_LocalPosition: {x: -0.536947, y: 1.9428903e-15, z: 1.6033534e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1396523587}
+  m_Father: {fileID: 829309294}
+  m_RootOrder: 1
+--- !u!1 &1185740937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013157964380, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1185740938}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftLittle1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1185740938
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011623733920, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1185740937}
+  m_LocalRotation: {x: 0.22358726, y: -0.0005271409, z: 0.00012092331, w: 0.97468376}
+  m_LocalPosition: {x: 2.220446e-16, y: -8.881784e-16, z: 0.20406443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 712808334}
+  m_Father: {fileID: 1016346207}
+  m_RootOrder: 0
+--- !u!1 &1195003418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012537298790, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1195003419}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftElbow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1195003419
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010407068488, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1195003418}
+  m_LocalRotation: {x: -0.008046045, y: 0.38630888, z: -0.005327468, w: 0.92231905}
+  m_LocalPosition: {x: 7.2164497e-16, y: 0, z: 1.7862614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 539516224}
+  m_Father: {fileID: 621436463}
+  m_RootOrder: 0
+--- !u!1 &1218561509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012752210114, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1218561510}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1218561510
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013379776996, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1218561509}
+  m_LocalRotation: {x: -0.41333815, y: 0.90199107, z: 0.12462678, w: -0.0056511033}
+  m_LocalPosition: {x: 0.6590642, y: 0.7375873, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1899476692}
+  m_Father: {fileID: 1311458316}
+  m_RootOrder: 2
+--- !u!1 &1278711314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012114404622, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1278711315}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightIndicator3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1278711315
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014024545554, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1278711314}
+  m_LocalRotation: {x: 0.045315124, y: 2.4210526e-17, z: 0.9989728, w: -6.214181e-17}
+  m_LocalPosition: {x: -3.330669e-16, y: 5.6668892e-11, z: 0.25916436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 731501332}
+  m_RootOrder: 0
+--- !u!1 &1293774672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010790691350, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1293774673}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftLittle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1293774673
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012797731210, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1293774672}
+  m_LocalRotation: {x: 6.054833e-17, y: 0.9999383, z: -6.054833e-17, w: -0.011109015}
+  m_LocalPosition: {x: 4.440892e-15, y: -8.881784e-16, z: 0.2086999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 712808334}
+  m_RootOrder: 0
+--- !u!1 &1294649136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011977029086, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1294649137}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightIndicator0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1294649137
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010637120760, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1294649136}
+  m_LocalRotation: {x: 0.054968078, y: 0.6724668, z: -0.05019758, w: 0.7363743}
+  m_LocalPosition: {x: 0.32007, y: 4.205969e-12, z: 0.213617}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 943804059}
+  m_Father: {fileID: 1907813186}
+  m_RootOrder: 0
+--- !u!1 &1311458315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010377407250, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1311458316}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1311458316
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010788825084, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1311458315}
+  m_LocalRotation: {x: 0, y: 0, z: 0.35304853, w: 0.93560505}
+  m_LocalPosition: {x: 0.031059597, y: -0.42263347, z: -0.69519275}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1877060324}
+  - {fileID: 172402728}
+  - {fileID: 1218561510}
+  m_Father: {fileID: 578294578}
+  m_RootOrder: 0
+--- !u!1 &1324753166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012628215996, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1324753167}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftIndicator3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1324753167
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010803500052, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1324753166}
+  m_LocalRotation: {x: 6.3944145e-17, y: 0.9989728, z: -6.3944145e-17, w: 0.04531441}
+  m_LocalPosition: {x: -0, y: -1.7763568e-15, z: 0.25916928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1417059855}
+  m_RootOrder: 0
+--- !u!1 &1388712585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010666209110, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1388712586}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftThumb0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1388712586
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013442576190, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1388712585}
+  m_LocalRotation: {x: 0.38865304, y: -0.30119506, z: -0.05164791, w: 0.86923116}
+  m_LocalPosition: {x: 3.5527137e-15, y: -4.440892e-16, z: 0.46146032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2019816131}
+  m_Father: {fileID: 349182479}
+  m_RootOrder: 4
+--- !u!1 &1396523586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013654737982, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1396523587}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1396523587
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011044795634, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1396523586}
+  m_LocalRotation: {x: -0.28631842, y: 0.64654607, z: 0.64206946, w: 0.29622093}
+  m_LocalPosition: {x: -1.6944753, y: 2.0816682e-17, z: 5.9952043e-15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1180867746}
+  m_RootOrder: 0
+--- !u!1 &1406617010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013512302528, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1406617011}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftKnee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1406617011
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013994491184, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1406617010}
+  m_LocalRotation: {x: -0.00000003399173, y: -0.017997319, z: 0.0053768726, w: 0.9998236}
+  m_LocalPosition: {x: -2.2764452, y: -1.110223e-16, z: 0.15415044}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 362755082}
+  m_Father: {fileID: 1877060324}
+  m_RootOrder: 0
+--- !u!1 &1415284059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013038380352, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1415284060}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1415284060
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010224861712, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1415284059}
+  m_LocalRotation: {x: 0.16132408, y: -0.009001877, z: 0.0014715568, w: 0.9868593}
+  m_LocalPosition: {x: -3.330669e-16, y: 8.881784e-16, z: 0.21333541}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 450214260}
+  m_Father: {fileID: 1972525034}
+  m_RootOrder: 0
+--- !u!1 &1417059854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010963957684, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1417059855}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftIndicator2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1417059855
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012853635864, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1417059854}
+  m_LocalRotation: {x: 0.18450649, y: 0.008216782, z: -0.0015425886, w: 0.9827957}
+  m_LocalPosition: {x: -1.5543122e-15, y: 0, z: 0.21175534}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1324753167}
+  m_Father: {fileID: 2018134200}
+  m_RootOrder: 0
+--- !u!1 &1467591778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011471365346, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1467591779}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467591779
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013958421178, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1467591778}
+  m_LocalRotation: {x: 0.18752913, y: 0.0022081337, z: -0.00042156954, w: 0.9822565}
+  m_LocalPosition: {x: -5.2180482e-15, y: 2.6645353e-15, z: 0.21333541}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1602263957}
+  m_Father: {fileID: 808686716}
+  m_RootOrder: 0
+--- !u!1 &1471410771
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011036333008, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1471410772}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightBallfoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471410772
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013745202516, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1471410771}
+  m_LocalRotation: {x: -1.5997555e-10, y: 4.752097e-10, z: -4.612814e-12, w: 1}
+  m_LocalPosition: {x: 9.992007e-16, y: 0, z: 0.73235565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 34971191}
+  m_Father: {fileID: 52896815}
+  m_RootOrder: 0
+--- !u!1 &1471779359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013684319390, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1471779360}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftFootCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1471779360
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014254553464, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1471779359}
+  m_LocalRotation: {x: 0, y: -0.017051416, z: -0, w: 0.9998546}
+  m_LocalPosition: {x: -2.0681448, y: -3.0931892, z: -1.1619815}
+  m_LocalScale: {x: 1.3121029, y: 1.3121029, z: 2}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 871371763}
+  m_Father: {fileID: 1910730366}
+  m_RootOrder: 0
+--- !u!1 &1482707108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013655321198, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1482707109}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482707109
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013427645876, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1482707108}
+  m_LocalRotation: {x: 0.21192919, y: 0.008914086, z: -0.0019331488, w: 0.97724247}
+  m_LocalPosition: {x: 5.551115e-17, y: 6.9722006e-14, z: 0.21333037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1029043992}
+  m_Father: {fileID: 261678332}
+  m_RootOrder: 0
+--- !u!1 &1488523890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013425869890, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1488523891}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1488523891
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010654930236, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1488523890}
+  m_LocalRotation: {x: 0.09570313, y: 0.33619866, z: -0.022167522, w: 0.9366536}
+  m_LocalPosition: {x: -1.5987212e-14, y: 5.2402527e-14, z: 0.205301}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1029525378}
+  m_Father: {fileID: 1790882402}
+  m_RootOrder: 0
+--- !u!1 &1490571724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011340429950, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1490571725}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:fullBodyCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1490571725
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011827884438, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1490571724}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00031059596, y: 0.060887933, z: 0}
+  m_LocalScale: {x: 0.02942728, y: 0.027200352, z: 0.035945024}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1825038427}
+  - {fileID: 578294578}
+  - {fileID: 658010794}
+  m_Father: {fileID: 1640102631}
+  m_RootOrder: 0
+--- !u!1 &1506971854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012290255098, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1506971855}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftBallfoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1506971855
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013768261438, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1506971854}
+  m_LocalRotation: {x: 1.4665409e-10, y: -8.55907e-10, z: 1.1350754e-11, w: 1}
+  m_LocalPosition: {x: -0.012873377, y: -0.0071067554, z: 0.73220783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 443862981}
+  m_Father: {fileID: 362755082}
+  m_RootOrder: 0
+--- !u!1001 &1516734107
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -11.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012664715522, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_Name
+      value: samuraiIdle
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011959131392, guid: 3f4731bdf8480414d99cc859872e6337,
+        type: 2}
+      propertyPath: forwardSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3f4731bdf8480414d99cc859872e6337, type: 2}
+  m_RootGameObject: {fileID: 1910809751}
+  m_IsPrefabParent: 0
+--- !u!1 &1602263956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010894737310, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1602263957}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftMiddle3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1602263957
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012176257250, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1602263956}
+  m_LocalRotation: {x: 6.070226e-17, y: 0.99996287, z: -6.070226e-17, w: -0.008619747}
+  m_LocalPosition: {x: 6.3837824e-15, y: -4.8849813e-15, z: 0.26896456}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1467591779}
+  m_RootOrder: 0
+--- !u!4 &1640102631
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011400983078, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1910809751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.56, y: 0, z: -11.38}
+  m_LocalScale: {x: 25, y: 25, z: 25}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1490571725}
+  - {fileID: 1811521211}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+--- !u!1 &1736718989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012220467270, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1736718990}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftIndicator0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736718990
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013777634850, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1736718989}
+  m_LocalRotation: {x: 0.04099543, y: -0.6732983, z: 0.03743763, w: 0.7372837}
+  m_LocalPosition: {x: -0.32006583, y: -4.440892e-16, z: 0.21361676}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 2018134200}
+  m_Father: {fileID: 349182479}
+  m_RootOrder: 0
+--- !u!1 &1747560899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010314013292, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1747560900}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftRing0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1747560900
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012213704420, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1747560899}
+  m_LocalRotation: {x: 0.06785617, y: -0.7038434, z: 0.06785617, w: 0.7038434}
+  m_LocalPosition: {x: -0.3185216, y: -4.440892e-16, z: -0.119100496}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1972525034}
+  m_Father: {fileID: 349182479}
+  m_RootOrder: 3
+--- !u!1 &1790882401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012313145464, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1790882402}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightThumb0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1790882402
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010089922440, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1790882401}
+  m_LocalRotation: {x: 0.29865342, y: 0.33475187, z: 0.006013979, w: 0.89370644}
+  m_LocalPosition: {x: -0, y: 9.085177e-12, z: 0.4614603}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1488523891}
+  m_Father: {fileID: 1907813186}
+  m_RootOrder: 4
+--- !u!1 &1801557250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011587982094, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1801557251}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightMiddle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801557251
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012110712252, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1801557250}
+  m_LocalRotation: {x: 0.15122782, y: -0.0022224458, z: 0.0003400069, w: 0.9884964}
+  m_LocalPosition: {x: -2.220446e-16, y: 7.1054274e-14, z: 0.2133304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 836634350}
+  m_Father: {fileID: 588651434}
+  m_RootOrder: 0
+--- !u!1 &1811521210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000014003661074, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1811521211}
+  - 137: {fileID: 1811521212}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:samuraiMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1811521211
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013323502348, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1811521210}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.9632334, z: -0.12279055}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1640102631}
+  m_RootOrder: 1
+--- !u!137 &1811521212
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137000011549365942, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1811521210}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d0d46afa761662442bb4d4a144c3d6df, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: d6179f97367490541a821a215edf6f95, type: 3}
+  m_Bones:
+  - {fileID: 1311458316}
+  - {fileID: 1877060324}
+  - {fileID: 1406617011}
+  - {fileID: 362755082}
+  - {fileID: 1506971855}
+  - {fileID: 443862981}
+  - {fileID: 1218561510}
+  - {fileID: 1899476692}
+  - {fileID: 829309294}
+  - {fileID: 1180867746}
+  - {fileID: 1396523587}
+  - {fileID: 832446700}
+  - {fileID: 621436463}
+  - {fileID: 1195003419}
+  - {fileID: 539516224}
+  - {fileID: 349182479}
+  - {fileID: 1388712586}
+  - {fileID: 2019816131}
+  - {fileID: 403020067}
+  - {fileID: 1736718990}
+  - {fileID: 2018134200}
+  - {fileID: 1417059855}
+  - {fileID: 1324753167}
+  - {fileID: 359744528}
+  - {fileID: 808686716}
+  - {fileID: 1467591779}
+  - {fileID: 1602263957}
+  - {fileID: 1747560900}
+  - {fileID: 1972525034}
+  - {fileID: 1415284060}
+  - {fileID: 450214260}
+  - {fileID: 1016346207}
+  - {fileID: 1185740938}
+  - {fileID: 712808334}
+  - {fileID: 1293774673}
+  - {fileID: 1877124119}
+  - {fileID: 701017742}
+  - {fileID: 913977242}
+  - {fileID: 650150834}
+  - {fileID: 1907813186}
+  - {fileID: 1790882402}
+  - {fileID: 1488523891}
+  - {fileID: 1029525378}
+  - {fileID: 1294649137}
+  - {fileID: 943804059}
+  - {fileID: 731501332}
+  - {fileID: 1278711315}
+  - {fileID: 220135475}
+  - {fileID: 588651434}
+  - {fileID: 1801557251}
+  - {fileID: 836634350}
+  - {fileID: 589406418}
+  - {fileID: 261678332}
+  - {fileID: 1482707109}
+  - {fileID: 1029043992}
+  - {fileID: 5609482}
+  - {fileID: 1072498756}
+  - {fileID: 2022942842}
+  - {fileID: 1118827095}
+  - {fileID: 172402728}
+  - {fileID: 604792511}
+  - {fileID: 52896815}
+  - {fileID: 1471410772}
+  - {fileID: 34971191}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1311458316}
+  m_AABB:
+    m_Center: {x: -0.19093513, y: -0.18079066, z: -0.09306848}
+    m_Extent: {x: 5.861864, y: 6.152047, z: 2.5976934}
+  m_DirtyAABB: 0
+--- !u!1 &1825038426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010137250066, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1825038427}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:allCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1825038427
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012586376578, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1825038426}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 8.326673e-17, z: 0}
+  m_LocalScale: {x: 0.44920972, y: 0.36764228, z: 0.2782026}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 104719975}
+  - {fileID: 1910730366}
+  m_Father: {fileID: 1490571725}
+  m_RootOrder: 0
+--- !u!1 &1877060323
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010246341176, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1877060324}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftThigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877060324
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012407559176, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1877060323}
+  m_LocalRotation: {x: -0.13584399, y: 0.056175504, z: 0.27890462, w: 0.949001}
+  m_LocalPosition: {x: -0.91230726, y: 2.7755576e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1406617011}
+  m_Father: {fileID: 1311458316}
+  m_RootOrder: 0
+--- !u!1 &1877124118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010136064576, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1877124119}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1877124119
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012524821436, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1877124118}
+  m_LocalRotation: {x: 0.66406745, y: -0.6206944, z: 0.33873066, w: 0.24292883}
+  m_LocalPosition: {x: 0.043197613, y: -0.68464994, z: 0.653528}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 701017742}
+  m_Father: {fileID: 829309294}
+  m_RootOrder: 2
+--- !u!1 &1891573386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1891573391}
+  - 20: {fileID: 1891573390}
+  - 92: {fileID: 1891573389}
+  - 124: {fileID: 1891573388}
+  - 81: {fileID: 1891573387}
+  - 114: {fileID: 1891573392}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1891573387
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891573386}
+  m_Enabled: 1
+--- !u!124 &1891573388
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891573386}
+  m_Enabled: 1
+--- !u!92 &1891573389
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891573386}
+  m_Enabled: 1
+--- !u!20 &1891573390
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891573386}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1891573391
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891573386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &1891573392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1891573386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 509c31f20e823c648a514224eede0a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothRot: 10
+  smoothTrans: 10
+  rotSens: 1
+  target: {fileID: 1640102631}
+  camDistance: 4.5
+  camHeight: 2.5
+--- !u!1 &1899476691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011498163224, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1899476692}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:spine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1899476692
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010126967626, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1899476691}
+  m_LocalRotation: {x: 0.0009872894, y: 0.030984387, z: 0.00746425, w: 0.9994916}
+  m_LocalPosition: {x: -1.1590197, y: 2.5673907e-16, z: 3.928897e-32}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 829309294}
+  m_Father: {fileID: 1218561510}
+  m_RootOrder: 0
+--- !u!1 &1907813185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013009215786, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1907813186}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1907813186
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011860528130, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1907813185}
+  m_LocalRotation: {x: 0, y: -0.6932008, z: -0, w: 0.7207445}
+  m_LocalPosition: {x: -0, y: 4.440892e-16, z: 0.42716408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1294649137}
+  - {fileID: 5609482}
+  - {fileID: 220135475}
+  - {fileID: 589406418}
+  - {fileID: 1790882402}
+  m_Father: {fileID: 650150834}
+  m_RootOrder: 0
+--- !u!1 &1910730365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011508290116, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1910730366}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:bothLegsCtrl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910730366
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000011880236482, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1910730365}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000000003259629, y: -2.788469, z: 0.9298215}
+  m_LocalScale: {x: 0.75648564, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1471779360}
+  - {fileID: 661585929}
+  m_Father: {fileID: 1825038427}
+  m_RootOrder: 1
+--- !u!1 &1910809751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012664715522, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1640102631}
+  - 95: {fileID: 1910809754}
+  - 143: {fileID: 1910809753}
+  - 114: {fileID: 1910809752}
+  m_Layer: 0
+  m_Name: samuraiIdle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1910809752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114000011959131392, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1910809751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3125ad5579791f6468428c980d82a0fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 100
+  forwardSpeed: 10
+  animSpeed: 1
+  verticalSpeed: 0
+  verticalSpeedMax: 5
+  verticalAcel: 10
+  inAir: 0
+--- !u!143 &1910809753
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143000013775256840, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1910809751}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 0.13
+  m_Radius: 0.02
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.065, z: 0}
+--- !u!95 &1910809754
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 95000010633508670, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1910809751}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d6179f97367490541a821a215edf6f95, type: 3}
+  m_Controller: {fileID: 9100000, guid: 19732ac9e453e224490bebbd6cfc267e, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1972525033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000012195633984, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1972525034}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1972525034
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000013105568736, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 1972525033}
+  m_LocalRotation: {x: 0.1127536, y: -0.0107983295, z: 0.001225438, w: 0.9935636}
+  m_LocalPosition: {x: -1.1657342e-15, y: -1.3322676e-15, z: 0.20864838}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1415284060}
+  m_Father: {fileID: 1747560900}
+  m_RootOrder: 0
+--- !u!1 &2018134199
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000013668612648, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2018134200}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftIndicator1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2018134200
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000010732370872, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 2018134199}
+  m_LocalRotation: {x: 0.09921086, y: -0.008319079, z: 0.00082946423, w: 0.99503136}
+  m_LocalPosition: {x: 3.330669e-16, y: -3.5527137e-15, z: 0.25916928}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1417059855}
+  m_Father: {fileID: 1736718990}
+  m_RootOrder: 0
+--- !u!1 &2019816130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000010666638960, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2019816131}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:leftThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2019816131
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000012942283964, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 2019816130}
+  m_LocalRotation: {x: 0, y: -0.36120757, z: -0, w: 0.93248546}
+  m_LocalPosition: {x: 8.881784e-16, y: -1.7763568e-15, z: 0.20530143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 403020067}
+  m_Father: {fileID: 1388712586}
+  m_RootOrder: 0
+--- !u!1 &2022942841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1000011796909920, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2022942842}
+  m_Layer: 0
+  m_Name: samuraiCharacterRig:rightLittle2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022942842
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4000014181431540, guid: 3f4731bdf8480414d99cc859872e6337,
+    type: 2}
+  m_PrefabInternal: {fileID: 1516734107}
+  m_GameObject: {fileID: 2022942841}
+  m_LocalRotation: {x: 0.4021295, y: -0.0007245301, z: 0.0003182181, w: 0.9155825}
+  m_LocalPosition: {x: 9.492407e-15, y: 5.728751e-14, z: 0.19478518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1118827095}
+  m_Father: {fileID: 1072498756}
+  m_RootOrder: 0

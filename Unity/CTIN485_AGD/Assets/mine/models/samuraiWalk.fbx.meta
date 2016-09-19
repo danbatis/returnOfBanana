@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 66902c052b08a2b40b7f15369798e7c5
+timeCreated: 1473752195
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: samuraiCharacterRig:allCtrl
+    100002: samuraiCharacterRig:bothArmsCtrl
+    100004: samuraiCharacterRig:bothLegsCtrl
+    100006: samuraiCharacterRig:collar
+    100008: samuraiCharacterRig:fullBodyCtrl
+    100010: samuraiCharacterRig:head
+    100012: samuraiCharacterRig:leftAnkle
+    100014: samuraiCharacterRig:leftArm
+    100016: samuraiCharacterRig:leftBallfoot
+    100018: samuraiCharacterRig:leftElbow
+    100020: samuraiCharacterRig:leftElbowCtrl
+    100022: samuraiCharacterRig:leftFootCtrl
+    100024: samuraiCharacterRig:leftFootTip
+    100026: samuraiCharacterRig:leftFootTipCtrl
+    100028: samuraiCharacterRig:leftHand
+    100030: samuraiCharacterRig:leftHandCtrl
+    100032: samuraiCharacterRig:leftIndicator0
+    100034: samuraiCharacterRig:leftIndicator1
+    100036: samuraiCharacterRig:leftIndicator2
+    100038: samuraiCharacterRig:leftIndicator3
+    100040: samuraiCharacterRig:leftKnee
+    100042: samuraiCharacterRig:leftKneeCtrl
+    100044: samuraiCharacterRig:leftLittle0
+    100046: samuraiCharacterRig:leftLittle1
+    100048: samuraiCharacterRig:leftLittle2
+    100050: samuraiCharacterRig:leftLittle3
+    100052: samuraiCharacterRig:leftMiddle0
+    100054: samuraiCharacterRig:leftMiddle1
+    100056: samuraiCharacterRig:leftMiddle2
+    100058: samuraiCharacterRig:leftMiddle3
+    100060: samuraiCharacterRig:leftRing0
+    100062: samuraiCharacterRig:leftRing1
+    100064: samuraiCharacterRig:leftRing2
+    100066: samuraiCharacterRig:leftRing3
+    100068: samuraiCharacterRig:leftShoulder
+    100070: samuraiCharacterRig:leftThigh
+    100072: samuraiCharacterRig:leftThumb0
+    100074: samuraiCharacterRig:leftThumb1
+    100076: samuraiCharacterRig:leftThumb2
+    100078: samuraiCharacterRig:leftWrist
+    100080: samuraiCharacterRig:neck
+    100082: samuraiCharacterRig:rightAnkle
+    100084: samuraiCharacterRig:rightArm
+    100086: samuraiCharacterRig:rightBallfoot
+    100088: samuraiCharacterRig:rightElbow
+    100090: samuraiCharacterRig:rightElbowCtrl
+    100092: samuraiCharacterRig:rightFootCtrl
+    100094: samuraiCharacterRig:rightFootTip
+    100096: samuraiCharacterRig:rightFootTipCtrl
+    100098: samuraiCharacterRig:rightHand
+    100100: samuraiCharacterRig:rightHandCtrl
+    100102: samuraiCharacterRig:rightIndicator0
+    100104: samuraiCharacterRig:rightIndicator1
+    100106: samuraiCharacterRig:rightIndicator2
+    100108: samuraiCharacterRig:rightIndicator3
+    100110: samuraiCharacterRig:rightKnee
+    100112: samuraiCharacterRig:rightKneeCtrl
+    100114: samuraiCharacterRig:rightLittle0
+    100116: samuraiCharacterRig:rightLittle1
+    100118: samuraiCharacterRig:rightLittle2
+    100120: samuraiCharacterRig:rightLittle3
+    100122: samuraiCharacterRig:rightMiddle0
+    100124: samuraiCharacterRig:rightMiddle1
+    100126: samuraiCharacterRig:rightMiddle2
+    100128: samuraiCharacterRig:rightMiddle3
+    100130: samuraiCharacterRig:rightRing0
+    100132: samuraiCharacterRig:rightRing1
+    100134: samuraiCharacterRig:rightRing2
+    100136: samuraiCharacterRig:rightRing3
+    100138: samuraiCharacterRig:rightShoulder
+    100140: samuraiCharacterRig:rightThigh
+    100142: samuraiCharacterRig:rightThumb0
+    100144: samuraiCharacterRig:rightThumb1
+    100146: samuraiCharacterRig:rightThumb2
+    100148: samuraiCharacterRig:rightWrist
+    100150: samuraiCharacterRig:root
+    100152: samuraiCharacterRig:samuraiMesh
+    100154: samuraiCharacterRig:spine1
+    100156: samuraiCharacterRig:spine2
+    100158: samuraiCharacterRig:transform10
+    100160: samuraiCharacterRig:translateBodyCtrl
+    100162: //RootNode
+    400000: samuraiCharacterRig:allCtrl
+    400002: samuraiCharacterRig:bothArmsCtrl
+    400004: samuraiCharacterRig:bothLegsCtrl
+    400006: samuraiCharacterRig:collar
+    400008: samuraiCharacterRig:fullBodyCtrl
+    400010: samuraiCharacterRig:head
+    400012: samuraiCharacterRig:leftAnkle
+    400014: samuraiCharacterRig:leftArm
+    400016: samuraiCharacterRig:leftBallfoot
+    400018: samuraiCharacterRig:leftElbow
+    400020: samuraiCharacterRig:leftElbowCtrl
+    400022: samuraiCharacterRig:leftFootCtrl
+    400024: samuraiCharacterRig:leftFootTip
+    400026: samuraiCharacterRig:leftFootTipCtrl
+    400028: samuraiCharacterRig:leftHand
+    400030: samuraiCharacterRig:leftHandCtrl
+    400032: samuraiCharacterRig:leftIndicator0
+    400034: samuraiCharacterRig:leftIndicator1
+    400036: samuraiCharacterRig:leftIndicator2
+    400038: samuraiCharacterRig:leftIndicator3
+    400040: samuraiCharacterRig:leftKnee
+    400042: samuraiCharacterRig:leftKneeCtrl
+    400044: samuraiCharacterRig:leftLittle0
+    400046: samuraiCharacterRig:leftLittle1
+    400048: samuraiCharacterRig:leftLittle2
+    400050: samuraiCharacterRig:leftLittle3
+    400052: samuraiCharacterRig:leftMiddle0
+    400054: samuraiCharacterRig:leftMiddle1
+    400056: samuraiCharacterRig:leftMiddle2
+    400058: samuraiCharacterRig:leftMiddle3
+    400060: samuraiCharacterRig:leftRing0
+    400062: samuraiCharacterRig:leftRing1
+    400064: samuraiCharacterRig:leftRing2
+    400066: samuraiCharacterRig:leftRing3
+    400068: samuraiCharacterRig:leftShoulder
+    400070: samuraiCharacterRig:leftThigh
+    400072: samuraiCharacterRig:leftThumb0
+    400074: samuraiCharacterRig:leftThumb1
+    400076: samuraiCharacterRig:leftThumb2
+    400078: samuraiCharacterRig:leftWrist
+    400080: samuraiCharacterRig:neck
+    400082: samuraiCharacterRig:rightAnkle
+    400084: samuraiCharacterRig:rightArm
+    400086: samuraiCharacterRig:rightBallfoot
+    400088: samuraiCharacterRig:rightElbow
+    400090: samuraiCharacterRig:rightElbowCtrl
+    400092: samuraiCharacterRig:rightFootCtrl
+    400094: samuraiCharacterRig:rightFootTip
+    400096: samuraiCharacterRig:rightFootTipCtrl
+    400098: samuraiCharacterRig:rightHand
+    400100: samuraiCharacterRig:rightHandCtrl
+    400102: samuraiCharacterRig:rightIndicator0
+    400104: samuraiCharacterRig:rightIndicator1
+    400106: samuraiCharacterRig:rightIndicator2
+    400108: samuraiCharacterRig:rightIndicator3
+    400110: samuraiCharacterRig:rightKnee
+    400112: samuraiCharacterRig:rightKneeCtrl
+    400114: samuraiCharacterRig:rightLittle0
+    400116: samuraiCharacterRig:rightLittle1
+    400118: samuraiCharacterRig:rightLittle2
+    400120: samuraiCharacterRig:rightLittle3
+    400122: samuraiCharacterRig:rightMiddle0
+    400124: samuraiCharacterRig:rightMiddle1
+    400126: samuraiCharacterRig:rightMiddle2
+    400128: samuraiCharacterRig:rightMiddle3
+    400130: samuraiCharacterRig:rightRing0
+    400132: samuraiCharacterRig:rightRing1
+    400134: samuraiCharacterRig:rightRing2
+    400136: samuraiCharacterRig:rightRing3
+    400138: samuraiCharacterRig:rightShoulder
+    400140: samuraiCharacterRig:rightThigh
+    400142: samuraiCharacterRig:rightThumb0
+    400144: samuraiCharacterRig:rightThumb1
+    400146: samuraiCharacterRig:rightThumb2
+    400148: samuraiCharacterRig:rightWrist
+    400150: samuraiCharacterRig:root
+    400152: samuraiCharacterRig:samuraiMesh
+    400154: samuraiCharacterRig:spine1
+    400156: samuraiCharacterRig:spine2
+    400158: samuraiCharacterRig:transform10
+    400160: samuraiCharacterRig:translateBodyCtrl
+    400162: //RootNode
+    2300000: samuraiCharacterRig:leftElbowCtrl
+    2300002: samuraiCharacterRig:leftKneeCtrl
+    2300004: samuraiCharacterRig:rightElbowCtrl
+    2300006: samuraiCharacterRig:rightKneeCtrl
+    3300000: samuraiCharacterRig:leftElbowCtrl
+    3300002: samuraiCharacterRig:leftKneeCtrl
+    3300004: samuraiCharacterRig:rightElbowCtrl
+    3300006: samuraiCharacterRig:rightKneeCtrl
+    4300000: samuraiCharacterRig:samuraiMesh
+    4300002: samuraiCharacterRig:rightElbowCtrl
+    4300004: samuraiCharacterRig:leftElbowCtrl
+    4300006: samuraiCharacterRig:rightKneeCtrl
+    4300008: samuraiCharacterRig:leftKneeCtrl
+    7400000: samuraiWalk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: samuraiCharacterRig:samuraiMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: samuraiWalk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothArmsCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothArmsCtrl/samuraiCharacterRig:leftHandCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothArmsCtrl/samuraiCharacterRig:leftHandCtrl/samuraiCharacterRig:leftElbowCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothArmsCtrl/samuraiCharacterRig:rightHandCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothArmsCtrl/samuraiCharacterRig:rightHandCtrl/samuraiCharacterRig:rightElbowCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl/samuraiCharacterRig:leftFootCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl/samuraiCharacterRig:leftFootCtrl/samuraiCharacterRig:leftFootTipCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl/samuraiCharacterRig:leftFootCtrl/samuraiCharacterRig:leftKneeCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl/samuraiCharacterRig:rightFootCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl/samuraiCharacterRig:rightFootCtrl/samuraiCharacterRig:rightFootTipCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:allCtrl/samuraiCharacterRig:bothLegsCtrl/samuraiCharacterRig:rightFootCtrl/samuraiCharacterRig:rightKneeCtrl
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:leftThigh
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:leftThigh/samuraiCharacterRig:leftKnee
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:leftThigh/samuraiCharacterRig:leftKnee/samuraiCharacterRig:leftAnkle
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:leftThigh/samuraiCharacterRig:leftKnee/samuraiCharacterRig:leftAnkle/samuraiCharacterRig:leftBallfoot
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:leftThigh/samuraiCharacterRig:leftKnee/samuraiCharacterRig:leftAnkle/samuraiCharacterRig:leftBallfoot/samuraiCharacterRig:leftFootTip
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:rightThigh
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:rightThigh/samuraiCharacterRig:rightKnee
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:rightThigh/samuraiCharacterRig:rightKnee/samuraiCharacterRig:rightAnkle
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:rightThigh/samuraiCharacterRig:rightKnee/samuraiCharacterRig:rightAnkle/samuraiCharacterRig:rightBallfoot
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:rightThigh/samuraiCharacterRig:rightKnee/samuraiCharacterRig:rightAnkle/samuraiCharacterRig:rightBallfoot/samuraiCharacterRig:rightFootTip
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftIndicator0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftIndicator0/samuraiCharacterRig:leftIndicator1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftIndicator0/samuraiCharacterRig:leftIndicator1/samuraiCharacterRig:leftIndicator2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftIndicator0/samuraiCharacterRig:leftIndicator1/samuraiCharacterRig:leftIndicator2/samuraiCharacterRig:leftIndicator3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftLittle0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftLittle0/samuraiCharacterRig:leftLittle1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftLittle0/samuraiCharacterRig:leftLittle1/samuraiCharacterRig:leftLittle2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftLittle0/samuraiCharacterRig:leftLittle1/samuraiCharacterRig:leftLittle2/samuraiCharacterRig:leftLittle3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftMiddle0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftMiddle0/samuraiCharacterRig:leftMiddle1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftMiddle0/samuraiCharacterRig:leftMiddle1/samuraiCharacterRig:leftMiddle2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftMiddle0/samuraiCharacterRig:leftMiddle1/samuraiCharacterRig:leftMiddle2/samuraiCharacterRig:leftMiddle3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftRing0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftRing0/samuraiCharacterRig:leftRing1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftRing0/samuraiCharacterRig:leftRing1/samuraiCharacterRig:leftRing2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftRing0/samuraiCharacterRig:leftRing1/samuraiCharacterRig:leftRing2/samuraiCharacterRig:leftRing3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftThumb0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftThumb0/samuraiCharacterRig:leftThumb1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:leftShoulder/samuraiCharacterRig:leftArm/samuraiCharacterRig:leftElbow/samuraiCharacterRig:leftWrist/samuraiCharacterRig:leftHand/samuraiCharacterRig:leftThumb0/samuraiCharacterRig:leftThumb1/samuraiCharacterRig:leftThumb2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:neck
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:neck/samuraiCharacterRig:head
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightIndicator0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightIndicator0/samuraiCharacterRig:rightIndicator1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightIndicator0/samuraiCharacterRig:rightIndicator1/samuraiCharacterRig:rightIndicator2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightIndicator0/samuraiCharacterRig:rightIndicator1/samuraiCharacterRig:rightIndicator2/samuraiCharacterRig:rightIndicator3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightLittle0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightLittle0/samuraiCharacterRig:rightLittle1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightLittle0/samuraiCharacterRig:rightLittle1/samuraiCharacterRig:rightLittle2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightLittle0/samuraiCharacterRig:rightLittle1/samuraiCharacterRig:rightLittle2/samuraiCharacterRig:rightLittle3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightMiddle0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightMiddle0/samuraiCharacterRig:rightMiddle1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightMiddle0/samuraiCharacterRig:rightMiddle1/samuraiCharacterRig:rightMiddle2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightMiddle0/samuraiCharacterRig:rightMiddle1/samuraiCharacterRig:rightMiddle2/samuraiCharacterRig:rightMiddle3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightRing0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightRing0/samuraiCharacterRig:rightRing1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightRing0/samuraiCharacterRig:rightRing1/samuraiCharacterRig:rightRing2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightRing0/samuraiCharacterRig:rightRing1/samuraiCharacterRig:rightRing2/samuraiCharacterRig:rightRing3
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightThumb0
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightThumb0/samuraiCharacterRig:rightThumb1
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:transform10/samuraiCharacterRig:root/samuraiCharacterRig:spine1/samuraiCharacterRig:spine2/samuraiCharacterRig:collar/samuraiCharacterRig:rightShoulder/samuraiCharacterRig:rightArm/samuraiCharacterRig:rightElbow/samuraiCharacterRig:rightWrist/samuraiCharacterRig:rightHand/samuraiCharacterRig:rightThumb0/samuraiCharacterRig:rightThumb1/samuraiCharacterRig:rightThumb2
+        weight: 1
+      - path: samuraiCharacterRig:fullBodyCtrl/samuraiCharacterRig:translateBodyCtrl
+        weight: 1
+      - path: samuraiCharacterRig:samuraiMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
