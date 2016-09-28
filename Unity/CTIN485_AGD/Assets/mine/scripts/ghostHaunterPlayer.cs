@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 [RequireComponent(typeof(CharacterController))]
 
-public class walkScript : MonoBehaviour {
+public class ghostHaunterPlayer : MonoBehaviour {
 
 	public float rotateSpeed=10.0f;
 	public float forwardSpeed=10.0f;
@@ -22,6 +21,13 @@ public class walkScript : MonoBehaviour {
 	public bool inAir=false;
 	private float vertIN = 0f;                // setup v variables as our vertical input axis
 	public bool etherealForm=false;
+	public float dashStrength=10.0f;
+	public float dashMomentSpan = 0.5f;
+	public bool dashing=false;
+	public bool dashPitchForth=false;
+	public bool dashForth=false;
+	public bool dashPitchBack=false;
+	public float dashPitchStrength=100f;
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +36,7 @@ public class walkScript : MonoBehaviour {
 		myControl = GetComponent<CharacterController>();
 		myTransform = transform;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		float h = Input.GetAxis("Horizontal");              // setup h variable as our horizontal input axis
@@ -56,6 +62,11 @@ public class walkScript : MonoBehaviour {
 				anim.SetBool ("JumpUp",true);
 				anim.SetBool ("JumpDown",false);
 			}
+			if (Input.GetKeyDown ("right ctrl")) {
+				Debug.Log ("player pressed right ctrl");
+				StartCoroutine (DashAttack());
+			}
+
 		}
 		else{
 			verticalSpeed -= verticalAcel * Time.deltaTime;
@@ -81,10 +92,54 @@ public class walkScript : MonoBehaviour {
 			etherealForm = false;
 			myTransform.gameObject.layer = 10;
 		}
+
+		if (dashing) {
+			if (dashPitchForth)
+				myTransform.Rotate (dashPitchStrength * Time.deltaTime, 0f, 0f);
+			if (dashForth)
+				myControl.Move (myTransform.forward * dashStrength * Time.deltaTime);
+			if (dashPitchBack)
+				myTransform.Rotate (-dashPitchStrength * Time.deltaTime, 0f, 0f);
+		} 
+		//else {
+		//	myTransform.up = Vector3.Lerp (myTransform.up, Vector3.up, Time.deltaTime * dashPitchStrength);
+		//}
 	}
 
+	void OnTriggerEnter(Collider other){
+		Debug.Log (gameObject.name+"trigger with: "+other.gameObject.name);
+		if (other.gameObject.name == "samuraiCharacterRig:neck") {
+			Debug.Log ("I got eyes on a ghost!");
+			ghostHunter hunterScript;
+			hunterScript = other.gameObject.GetComponentInParent<ghostHunter> ();
+			//wake hunter
+			if (hunterScript)
+				hunterScript.Fight ();
+			else
+				Debug.Log ("Nah, it must have been just a villager...");
+		}
 
-	//void OnControllerColliderHit(ControllerColliderHit hit){
-	//	Debug.Log ("Collided with: " + hit.gameObject.name);
-	//}
+	}
+	void OnTriggerExit(Collider other){
+		Debug.Log (gameObject.name+"trigger out: "+other.gameObject.name);
+
+	}
+
+	IEnumerator DashAttack(){
+		dashing = true;
+		dashPitchForth = true;
+		//rotate
+		//yield return new WaitForSeconds(dashMomentSpan);
+		dashPitchForth = false;
+		dashForth = true;
+		//dash
+		yield return new WaitForSeconds(dashMomentSpan);
+		dashForth = false;
+		dashPitchBack = true;
+		//rotate back
+		//yield return new WaitForSeconds(dashMomentSpan);
+		dashPitchBack = false;
+		dashing = false;
+
+	}
 }

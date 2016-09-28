@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{68889D9C-65E4-18BD-CEED-67CE2A215087}</ProjectGuid>
+    <ProjectGuid>{15A2190E-724E-3DF3-4B99-C79DB29313C0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -85,6 +85,9 @@
      <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\mine\scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\mine\scripts\autoWalkScript.cs" />
+     <Compile Include="Assets\mine\scripts\ghostHaunterPlayer.cs" />
+     <Compile Include="Assets\mine\scripts\ghostHunter.cs" />
+     <Compile Include="Assets\mine\scripts\villager.cs" />
      <Compile Include="Assets\mine\scripts\walkScript.cs" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
