@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CurrentGhost.cs" />
     <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -101,6 +102,9 @@
     <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\ScaredBananas.cs" />
+    <Compile Include="Assets\detectingEnemy.cs" />
+    <Compile Include="Assets\mine\scenes\CameraBehavior.cs" />
     <Compile Include="Assets\mine\scenes\PlayerNavigation.cs" />
     <Compile Include="Assets\mine\scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\mine\scripts\autoWalkScript.cs" />
