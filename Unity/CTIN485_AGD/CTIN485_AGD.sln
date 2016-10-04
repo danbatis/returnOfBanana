@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{0CE8C168-113A-B8D2-741A-1A29C0483E88}") = "CTIN485_AGD", "Assembly-CSharp.csproj", "{15A2190E-724E-3DF3-4B99-C79DB29313C0}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTIN485_AGD.CSharp", "CTIN485_AGD.CSharp.csproj", "{811BA961-51B1-0653-658C-9831B47F1A34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{15A2190E-724E-3DF3-4B99-C79DB29313C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15A2190E-724E-3DF3-4B99-C79DB29313C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15A2190E-724E-3DF3-4B99-C79DB29313C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15A2190E-724E-3DF3-4B99-C79DB29313C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811BA961-51B1-0653-658C-9831B47F1A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811BA961-51B1-0653-658C-9831B47F1A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811BA961-51B1-0653-658C-9831B47F1A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811BA961-51B1-0653-658C-9831B47F1A34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
