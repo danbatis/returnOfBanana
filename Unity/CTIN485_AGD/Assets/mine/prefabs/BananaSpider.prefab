@@ -485,8 +485,11 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000013184980188}
+  - 114: {fileID: 114000010222321582}
+  - 135: {fileID: 135000010463853570}
+  - 195: {fileID: 195000013377838184}
   m_Layer: 0
-  m_Name: Banana
+  m_Name: BananaSpider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,7 +977,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013251705312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7688522, y: -2.4326775, z: -0.16371822}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -1462,7 +1465,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000012154216360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.897072, y: 2.4326775, z: -2.1569605}
+  m_LocalPosition: {x: 7.74, y: -0.186, z: 2.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -1739,7 +1742,7 @@ Animator:
   m_GameObject: {fileID: 1000013251705312}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3af857f9dc98a49c99901d691cff1e36, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2f677b8acc57e4146805f9f5e2232ca9, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1747,6 +1750,29 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000010222321582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012154216360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb6ea68b2833f34baacf60988920358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &135000010463853570
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012154216360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.8
+  m_Center: {x: 0, y: 1.55, z: 0}
 --- !u!137 &137000012535495138
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1814,3 +1840,23 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00012991112, y: 0.0016388539, z: 0.00057127513}
     m_Extent: {x: 0.027276676, y: 0.018647939, z: 0.027665919}
   m_DirtyAABB: 0
+--- !u!195 &195000013377838184
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000012154216360}
+  m_Enabled: 1
+  m_Radius: 2.4
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.5
+  m_BaseOffset: -0.2
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

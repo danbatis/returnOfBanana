@@ -2,11 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class PlayerNavigation : MonoBehaviour {
+public class PlayerNavigation : MonoBehaviour, SelectableObject {
 
     NavMeshAgent navigationAgent;
     public GameObject ghostSenses;
-    public GameObject GameManager;
 
     float ReverseDirection;
     Vector3 patrol;
@@ -28,7 +27,6 @@ public class PlayerNavigation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        ClickToMove();
 
         if (ghostSenses.gameObject.GetComponent<detectingEnemy>().enemies.Count > 0)
         {
@@ -79,23 +77,21 @@ public class PlayerNavigation : MonoBehaviour {
         notDigesting = true;
     }
 
-    //Pretty self explanatory 
-    void ClickToMove()
+    //this object has been selected
+    void SelectableObject.Selected()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            lastUserCommandLocation = Input.mousePosition;
-            Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit mouseClick;
 
-            if (Physics.Raycast(mouseRay, out mouseClick, 100))
-            {
-                if (GameManager.GetComponent<CurrentGhost>().ghostSelected != null)
-                {
-                    GameManager.GetComponent<CurrentGhost>().ghostSelected.GetComponent<NavMeshAgent>().SetDestination(mouseClick.point);
-                    //WeMoving = true;
-                }
-            }
-        }
+    }
+
+    //this object has been unselected
+    void SelectableObject.Unselected()
+    {
+
+    }
+
+    //the player has right clicked somewhere on the screen while this object is selected
+    void SelectableObject.HandleRightClick(RaycastHit hit)
+    {
+        GetComponent<NavMeshAgent>().SetDestination(hit.point);
     }
 }  
