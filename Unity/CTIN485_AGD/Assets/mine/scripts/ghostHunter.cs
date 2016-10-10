@@ -14,6 +14,8 @@ public class ghostHunter : MonoBehaviour {
 
 	public float patrolTime=5.0f;
 
+
+
 	public enum hunterModes{
 		patrol,
 		hunt,
@@ -25,12 +27,14 @@ public class ghostHunter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        
+
 		anim = GetComponent<Animator>();
 		navAgent = GetComponent<NavMeshAgent> ();
 
 		if (target == null) {
-			if (GameObject.FindGameObjectsWithTag ("Player")!=null)
-				target = GameObject.FindGameObjectWithTag("Player").transform;
+			//if (GameObject.FindGameObjectsWithTag ("Player")!=null)
+			//	target = GameObject.FindGameObjectWithTag("Player").transform;
 		}
 
 		myTransform = transform;
@@ -72,8 +76,11 @@ public class ghostHunter : MonoBehaviour {
 				}
 			}
 		}
+
 		//navAgent.pathStatus
 	}
+
+    
 
 	public void Fight(){
 		hunterMode = hunterModes.hunt;
