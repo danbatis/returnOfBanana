@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ghost
+  - enemy
+  - bannanabunch
+  - Terrain
   layers:
   - Default
   - TransparentFX
