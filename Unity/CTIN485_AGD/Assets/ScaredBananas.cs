@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class ScaredBananas : MonoBehaviour {
+    /*
     Vector3 eek;
 	// Use this for initialization
 	void Start () {
@@ -30,5 +31,5 @@ public class ScaredBananas : MonoBehaviour {
             print(col.gameObject.name);
         }
         
-    }
+    }*/
 }
