@@ -68,12 +68,15 @@ public class PlayerNavigation : MonoBehaviour, SelectableObject {
         Destroy(ghostSenses.gameObject.GetComponent<detectingEnemy>().enemies[0].gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.parent.gameObject.transform.parent.gameObject, 2f);
         ghostSenses.gameObject.GetComponent<detectingEnemy>().enemies.RemoveAt(0);
         notDigesting = false;
+        gameObject.GetComponent<Animator>().SetBool("Attack", true);
         StartCoroutine(Consume());
+        
     }
 
     IEnumerator Consume()
     {
         yield return new WaitForSeconds(1f);
+        gameObject.GetComponent<Animator>().SetBool("Attack", false);
         notDigesting = true;
     }
 

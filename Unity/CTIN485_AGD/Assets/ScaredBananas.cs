@@ -14,6 +14,10 @@ public class ScaredBananas : MonoBehaviour {
         {
             gameObject.GetComponent<Animator>().SetBool("walking", false);
         }
+    if(gameObject.GetComponent<NavMeshAgent>().remainingDistance > .5f)
+        {
+            gameObject.GetComponent<Animator>().SetBool("walking", true);
+        }
 	}
 
     void OnTriggerEnter(Collider col)
@@ -24,7 +28,6 @@ public class ScaredBananas : MonoBehaviour {
             gameObject.GetComponent<NavMeshAgent>().SetDestination((eek - transform.position) * -1f);
             print("running");
             print(col.gameObject.name);
-            gameObject.GetComponent<Animator>().SetBool("walking", true);
         }
         
     }
