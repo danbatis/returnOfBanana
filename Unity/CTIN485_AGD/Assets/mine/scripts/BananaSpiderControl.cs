@@ -14,7 +14,10 @@ public class BananaSpiderControl : MonoBehaviour, SelectableObject
     [SerializeField]
     private float attackCooldown;
 
-    private float currentAttackCooldown = 0f;
+    [SerializeField]
+    private BananaSpiderProjectile projectilePrefab;
+
+    private bool attackReady = true;
 
     private bool forceFire = false;
     private Transform attackTarget;
@@ -35,8 +38,6 @@ public class BananaSpiderControl : MonoBehaviour, SelectableObject
     {
         //if the agent is set to update the character's position and it hasn't reached its destination, play the walk animation
         animationController.SetBool("Walking", agent.updatePosition && agent.remainingDistance > .01f);
-
-        currentAttackCooldown -= Time.deltaTime;
 
         attackState = UpdateAI();
     }
@@ -89,16 +90,34 @@ public class BananaSpiderControl : MonoBehaviour, SelectableObject
         agent.updateRotation = false;
 
         //if we're waiting for the cooldown on the attack, do nothing this turn
-        if(currentAttackCooldown > 0f)
+        if(!attackReady)
         {
             return AttackState.Attacking;
         }
 
-        //we aren't waiting for the cooldown, so we can attack this frame!
-        animationController.SetTrigger("Attacking");
-        currentAttackCooldown = attackCooldown;
+        StartCoroutine(PerformAttack(targetPosition));
 
         return AttackState.Attacking;
+    }
+
+    private IEnumerator PerformAttack(Vector3 TargetPosition)
+    {
+        attackReady = false;
+
+        //we aren't waiting for the cooldown, so we can attack this frame!
+        animationController.SetTrigger("Attacking");
+
+        yield return new WaitForSeconds(.55f);
+
+        GetComponentInChildren<ParticleSystem>().Play();
+
+        var projectileInstance = Instantiate<BananaSpiderProjectile>(projectilePrefab);
+        projectileInstance.transform.position = transform.FindChild("LaunchPosition").position;
+        projectileInstance.LaunchTarget = TargetPosition;
+
+        yield return new WaitForSeconds(attackCooldown);
+
+        attackReady = true;
     }
 
     //perform the "Moving To Attack" state where we get in position to attack

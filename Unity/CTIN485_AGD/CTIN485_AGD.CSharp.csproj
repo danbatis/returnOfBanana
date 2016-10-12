@@ -107,6 +107,7 @@
     <Compile Include="Assets\mine\scenes\CameraBehavior.cs" />
     <Compile Include="Assets\mine\scenes\PlayerNavigation.cs" />
     <Compile Include="Assets\mine\scripts\BananaSpiderControl.cs" />
+    <Compile Include="Assets\mine\scripts\BananaSpiderProjectile.cs" />
     <Compile Include="Assets\mine\scripts\SelectableObject.cs" />
     <Compile Include="Assets\mine\scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\mine\scripts\autoWalkScript.cs" />
