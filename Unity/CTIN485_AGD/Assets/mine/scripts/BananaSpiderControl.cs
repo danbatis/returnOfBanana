@@ -79,6 +79,12 @@ public class BananaSpiderControl : MonoBehaviour, SelectableObject
             return AttackState.MovingToAttack;
         }
 
+        //if we're not facing the target, we can't attack
+        if (Vector3.Dot(displacementToTarget.normalized, transform.forward) < .95f)
+        {
+            return AttackState.MovingToAttack;
+        }
+
         agent.updatePosition = false;
         agent.updateRotation = false;
 
