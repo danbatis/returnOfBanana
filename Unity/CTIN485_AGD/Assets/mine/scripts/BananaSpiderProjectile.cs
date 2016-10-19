@@ -29,8 +29,19 @@ public class BananaSpiderProjectile : MonoBehaviour
         GetComponent<Rigidbody>().velocity = launchVelocity;
     }
 
-    void OnCollisionenteR(Collision c)
+    void OnCollisionEnter(Collision c)
     {
-        Debug.Log("projectile collision");
+        if (c.collider.gameObject.tag != "Player")
+        {
+            var child = transform.FindChild("ProjectileExplosion");
+            child.SetParent(null, true);
+            child.gameObject.SetActive(true);
+            child.transform.eulerAngles = new Vector3(-90f, 0f, 0f);
+
+
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+            Destroy(child.gameObject, 10f);
+        }
     }
 }
