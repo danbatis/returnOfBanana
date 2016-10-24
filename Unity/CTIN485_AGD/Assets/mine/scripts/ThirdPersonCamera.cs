@@ -29,7 +29,7 @@ public class ThirdPersonCamera : MonoBehaviour {
 
 	void FixedUpdate ()
 	{		
-		float targetRot = Vector3.Angle (oldTargetForth, target.forward);
+		//float targetRot = Vector3.Angle (oldTargetForth, target.forward);
 
 		targetVirtual = target.position - camDistance * target.forward + camHeight*target.up;
 		myTransform.position = Vector3.Lerp (myTransform.position, targetVirtual, Time.deltaTime * smoothTrans);

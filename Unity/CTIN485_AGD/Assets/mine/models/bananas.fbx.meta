@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: d2191baa336c6a34ca7098165b06cc52
+timeCreated: 1477168073
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Banana
+    100002: Banana 1
+    100004: Banana 2
+    100006: Banana 3
+    100008: Banana 4
+    100010: Banana 5
+    100012: Banana 6
+    100014: Banana 7
+    100016: Banana16
+    100018: Banana16 1
+    100020: Banana16 2
+    100022: Banana16 3
+    100024: Banana16 4
+    100026: Banana16 5
+    100028: Banana16 6
+    100030: Banana16 7
+    100032: Banana16 8
+    100034: Banana16 9
+    100036: Banana29
+    100038: Banana29 1
+    100040: Banana29 2
+    100042: Banana29 3
+    100044: Banana29 4
+    100046: Banana29 5
+    100048: Banana29 6
+    100050: Banana29 7
+    100052: Banana37
+    100054: Banana37 1
+    100056: Banana37 2
+    100058: Banana37 3
+    100060: Banana37 4
+    100062: Banana37 5
+    100064: Banana37 6
+    100066: Banana37 7
+    100068: Banana8
+    100070: Banana8 1
+    100072: Banana8 2
+    100074: Banana8 3
+    100076: Banana8 4
+    100078: Banana8 5
+    100080: Banana8 6
+    100082: Banana8 7
+    100084: //RootNode
+    100086: joint1
+    100088: joint17
+    100090: joint18
+    100092: joint19
+    100094: joint2
+    100096: joint20
+    100098: joint21
+    100100: joint22
+    100102: joint23
+    100104: joint24
+    100106: joint25
+    100108: joint26
+    100110: joint27
+    100112: joint28
+    100114: joint29
+    100116: joint3
+    100118: joint30
+    100120: joint31
+    100122: joint32
+    100124: joint33
+    100126: joint34
+    100128: joint35
+    100130: joint36
+    100132: joint37
+    100134: joint38
+    100136: joint39
+    100138: joint4
+    100140: joint40
+    100142: joint41
+    100144: joint42
+    100146: joint43
+    100148: joint44
+    100150: joint45
+    100152: joint46
+    100154: joint47
+    100156: joint48
+    100158: joint49
+    100160: joint5
+    100162: joint50
+    100164: joint51
+    100166: joint52
+    100168: joint53
+    100170: joint54
+    100172: joint55
+    100174: joint56
+    100176: joint57
+    100178: joint6
+    100180: joint7
+    100182: trunk
+    400000: Banana
+    400002: Banana 1
+    400004: Banana 2
+    400006: Banana 3
+    400008: Banana 4
+    400010: Banana 5
+    400012: Banana 6
+    400014: Banana 7
+    400016: Banana16
+    400018: Banana16 1
+    400020: Banana16 2
+    400022: Banana16 3
+    400024: Banana16 4
+    400026: Banana16 5
+    400028: Banana16 6
+    400030: Banana16 7
+    400032: Banana16 8
+    400034: Banana16 9
+    400036: Banana29
+    400038: Banana29 1
+    400040: Banana29 2
+    400042: Banana29 3
+    400044: Banana29 4
+    400046: Banana29 5
+    400048: Banana29 6
+    400050: Banana29 7
+    400052: Banana37
+    400054: Banana37 1
+    400056: Banana37 2
+    400058: Banana37 3
+    400060: Banana37 4
+    400062: Banana37 5
+    400064: Banana37 6
+    400066: Banana37 7
+    400068: Banana8
+    400070: Banana8 1
+    400072: Banana8 2
+    400074: Banana8 3
+    400076: Banana8 4
+    400078: Banana8 5
+    400080: Banana8 6
+    400082: Banana8 7
+    400084: //RootNode
+    400086: joint1
+    400088: joint17
+    400090: joint18
+    400092: joint19
+    400094: joint2
+    400096: joint20
+    400098: joint21
+    400100: joint22
+    400102: joint23
+    400104: joint24
+    400106: joint25
+    400108: joint26
+    400110: joint27
+    400112: joint28
+    400114: joint29
+    400116: joint3
+    400118: joint30
+    400120: joint31
+    400122: joint32
+    400124: joint33
+    400126: joint34
+    400128: joint35
+    400130: joint36
+    400132: joint37
+    400134: joint38
+    400136: joint39
+    400138: joint4
+    400140: joint40
+    400142: joint41
+    400144: joint42
+    400146: joint43
+    400148: joint44
+    400150: joint45
+    400152: joint46
+    400154: joint47
+    400156: joint48
+    400158: joint49
+    400160: joint5
+    400162: joint50
+    400164: joint51
+    400166: joint52
+    400168: joint53
+    400170: joint54
+    400172: joint55
+    400174: joint56
+    400176: joint57
+    400178: joint6
+    400180: joint7
+    400182: trunk
+    2300000: Banana
+    2300002: Banana 1
+    2300004: Banana 2
+    2300006: Banana 3
+    2300008: Banana 4
+    2300010: Banana 5
+    2300012: Banana 6
+    2300014: Banana 7
+    2300016: Banana16
+    2300018: Banana16 1
+    2300020: Banana16 2
+    2300022: Banana16 3
+    2300024: Banana16 4
+    2300026: Banana16 5
+    2300028: Banana16 6
+    2300030: Banana16 7
+    2300032: Banana16 8
+    2300034: Banana16 9
+    2300036: Banana29
+    2300038: Banana29 1
+    2300040: Banana29 2
+    2300042: Banana29 3
+    2300044: Banana29 4
+    2300046: Banana29 5
+    2300048: Banana29 6
+    2300050: Banana29 7
+    2300052: Banana37
+    2300054: Banana37 1
+    2300056: Banana37 2
+    2300058: Banana37 3
+    2300060: Banana37 4
+    2300062: Banana37 5
+    2300064: Banana37 6
+    2300066: Banana37 7
+    2300068: Banana8
+    2300070: Banana8 1
+    2300072: Banana8 2
+    2300074: Banana8 3
+    2300076: Banana8 4
+    2300078: Banana8 5
+    2300080: Banana8 6
+    2300082: Banana8 7
+    2300084: trunk
+    3300000: Banana
+    3300002: Banana 1
+    3300004: Banana 2
+    3300006: Banana 3
+    3300008: Banana 4
+    3300010: Banana 5
+    3300012: Banana 6
+    3300014: Banana 7
+    3300016: Banana16
+    3300018: Banana16 1
+    3300020: Banana16 2
+    3300022: Banana16 3
+    3300024: Banana16 4
+    3300026: Banana16 5
+    3300028: Banana16 6
+    3300030: Banana16 7
+    3300032: Banana16 8
+    3300034: Banana16 9
+    3300036: Banana29
+    3300038: Banana29 1
+    3300040: Banana29 2
+    3300042: Banana29 3
+    3300044: Banana29 4
+    3300046: Banana29 5
+    3300048: Banana29 6
+    3300050: Banana29 7
+    3300052: Banana37
+    3300054: Banana37 1
+    3300056: Banana37 2
+    3300058: Banana37 3
+    3300060: Banana37 4
+    3300062: Banana37 5
+    3300064: Banana37 6
+    3300066: Banana37 7
+    3300068: Banana8
+    3300070: Banana8 1
+    3300072: Banana8 2
+    3300074: Banana8 3
+    3300076: Banana8 4
+    3300078: Banana8 5
+    3300080: Banana8 6
+    3300082: Banana8 7
+    3300084: trunk
+    4300000: Banana29
+    4300002: Banana29
+    4300004: Banana29
+    4300006: Banana29
+    4300008: Banana29
+    4300010: Banana29
+    4300012: Banana29
+    4300014: Banana29
+    4300016: Banana16
+    4300018: Banana16
+    4300020: Banana16
+    4300022: Banana16
+    4300024: Banana16
+    4300026: Banana16
+    4300028: Banana16
+    4300030: Banana16
+    4300032: Banana16
+    4300034: Banana16
+    4300036: Banana37
+    4300038: Banana37
+    4300040: Banana37
+    4300042: Banana37
+    4300044: Banana37
+    4300046: Banana37
+    4300048: Banana37
+    4300050: Banana37
+    4300052: Banana8
+    4300054: Banana8
+    4300056: Banana8
+    4300058: Banana8
+    4300060: Banana8
+    4300062: Banana8
+    4300064: Banana8
+    4300066: Banana8
+    4300068: Banana
+    4300070: Banana
+    4300072: Banana
+    4300074: Banana
+    4300076: Banana
+    4300078: Banana
+    4300080: Banana
+    4300082: Banana
+    4300084: trunk
+    7400000: Take 001
+    7400002: idle
+    7400004: run
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/Banana29 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint17
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint17/Banana29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint18/Banana29 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint19
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint19/Banana29 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint20
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint20/Banana29 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint21
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint21/Banana29 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint22
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint22/Banana29 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint23
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint23/Banana29 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint24
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint24/Banana16
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint25
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint25/Banana16 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint26
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint26/Banana16 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint27
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint27/Banana16 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint28
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint28/Banana16 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint29/Banana16 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint30
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint30/Banana16 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint31
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint31/Banana16 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint32
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint32/Banana16 8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint33
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint33/Banana16 9
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint34
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint34/Banana37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint35
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint35/Banana37 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint36
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint36/Banana37 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint37/Banana37 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint38
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint38/Banana37 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint39
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint39/Banana37 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint40
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint40/Banana37 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint41
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint41/Banana37 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint42
+        weight: 1
+      - path: joint1/joint2/joint3/joint42/Banana8
+        weight: 1
+      - path: joint1/joint2/joint3/joint43
+        weight: 1
+      - path: joint1/joint2/joint3/joint43/Banana8 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint44
+        weight: 1
+      - path: joint1/joint2/joint3/joint44/Banana8 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint45
+        weight: 1
+      - path: joint1/joint2/joint3/joint45/Banana8 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint46
+        weight: 1
+      - path: joint1/joint2/joint3/joint46/Banana8 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint47
+        weight: 1
+      - path: joint1/joint2/joint3/joint47/Banana8 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint48
+        weight: 1
+      - path: joint1/joint2/joint3/joint48/Banana8 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint49
+        weight: 1
+      - path: joint1/joint2/joint3/joint49/Banana8 7
+        weight: 1
+      - path: joint1/joint2/joint50
+        weight: 1
+      - path: joint1/joint2/joint50/Banana
+        weight: 1
+      - path: joint1/joint2/joint51
+        weight: 1
+      - path: joint1/joint2/joint51/Banana 1
+        weight: 1
+      - path: joint1/joint2/joint52
+        weight: 1
+      - path: joint1/joint2/joint52/Banana 2
+        weight: 1
+      - path: joint1/joint2/joint53
+        weight: 1
+      - path: joint1/joint2/joint53/Banana 3
+        weight: 1
+      - path: joint1/joint2/joint54
+        weight: 1
+      - path: joint1/joint2/joint54/Banana 4
+        weight: 1
+      - path: joint1/joint2/joint55
+        weight: 1
+      - path: joint1/joint2/joint55/Banana 5
+        weight: 1
+      - path: joint1/joint2/joint56
+        weight: 1
+      - path: joint1/joint2/joint56/Banana 6
+        weight: 1
+      - path: joint1/joint2/joint57
+        weight: 1
+      - path: joint1/joint2/joint57/Banana 7
+        weight: 1
+      - path: joint1/trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/Banana29 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint17
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint17/Banana29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint18/Banana29 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint19
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint19/Banana29 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint20
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint20/Banana29 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint21
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint21/Banana29 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint22
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint22/Banana29 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint23
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint23/Banana29 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint24
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint24/Banana16
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint25
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint25/Banana16 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint26
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint26/Banana16 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint27
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint27/Banana16 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint28
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint28/Banana16 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint29/Banana16 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint30
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint30/Banana16 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint31
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint31/Banana16 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint32
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint32/Banana16 8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint33
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint33/Banana16 9
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint34
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint34/Banana37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint35
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint35/Banana37 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint36
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint36/Banana37 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint37/Banana37 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint38
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint38/Banana37 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint39
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint39/Banana37 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint40
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint40/Banana37 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint41
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint41/Banana37 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint42
+        weight: 1
+      - path: joint1/joint2/joint3/joint42/Banana8
+        weight: 1
+      - path: joint1/joint2/joint3/joint43
+        weight: 1
+      - path: joint1/joint2/joint3/joint43/Banana8 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint44
+        weight: 1
+      - path: joint1/joint2/joint3/joint44/Banana8 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint45
+        weight: 1
+      - path: joint1/joint2/joint3/joint45/Banana8 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint46
+        weight: 1
+      - path: joint1/joint2/joint3/joint46/Banana8 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint47
+        weight: 1
+      - path: joint1/joint2/joint3/joint47/Banana8 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint48
+        weight: 1
+      - path: joint1/joint2/joint3/joint48/Banana8 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint49
+        weight: 1
+      - path: joint1/joint2/joint3/joint49/Banana8 7
+        weight: 1
+      - path: joint1/joint2/joint50
+        weight: 1
+      - path: joint1/joint2/joint50/Banana
+        weight: 1
+      - path: joint1/joint2/joint51
+        weight: 1
+      - path: joint1/joint2/joint51/Banana 1
+        weight: 1
+      - path: joint1/joint2/joint52
+        weight: 1
+      - path: joint1/joint2/joint52/Banana 2
+        weight: 1
+      - path: joint1/joint2/joint53
+        weight: 1
+      - path: joint1/joint2/joint53/Banana 3
+        weight: 1
+      - path: joint1/joint2/joint54
+        weight: 1
+      - path: joint1/joint2/joint54/Banana 4
+        weight: 1
+      - path: joint1/joint2/joint55
+        weight: 1
+      - path: joint1/joint2/joint55/Banana 5
+        weight: 1
+      - path: joint1/joint2/joint56
+        weight: 1
+      - path: joint1/joint2/joint56/Banana 6
+        weight: 1
+      - path: joint1/joint2/joint57
+        weight: 1
+      - path: joint1/joint2/joint57/Banana 7
+        weight: 1
+      - path: joint1/trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 13
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint7/Banana29 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint17
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint17/Banana29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint18
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint18/Banana29 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint19
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint19/Banana29 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint20
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint20/Banana29 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint21
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint21/Banana29 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint22
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint22/Banana29 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint23
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint6/joint23/Banana29 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint24
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint24/Banana16
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint25
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint25/Banana16 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint26
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint26/Banana16 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint27
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint27/Banana16 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint28
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint28/Banana16 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint29
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint29/Banana16 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint30
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint30/Banana16 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint31
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint31/Banana16 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint32
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint32/Banana16 8
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint33
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5/joint33/Banana16 9
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint34
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint34/Banana37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint35
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint35/Banana37 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint36
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint36/Banana37 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint37
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint37/Banana37 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint38
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint38/Banana37 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint39
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint39/Banana37 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint40
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint40/Banana37 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint41
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint41/Banana37 7
+        weight: 1
+      - path: joint1/joint2/joint3/joint42
+        weight: 1
+      - path: joint1/joint2/joint3/joint42/Banana8
+        weight: 1
+      - path: joint1/joint2/joint3/joint43
+        weight: 1
+      - path: joint1/joint2/joint3/joint43/Banana8 1
+        weight: 1
+      - path: joint1/joint2/joint3/joint44
+        weight: 1
+      - path: joint1/joint2/joint3/joint44/Banana8 2
+        weight: 1
+      - path: joint1/joint2/joint3/joint45
+        weight: 1
+      - path: joint1/joint2/joint3/joint45/Banana8 3
+        weight: 1
+      - path: joint1/joint2/joint3/joint46
+        weight: 1
+      - path: joint1/joint2/joint3/joint46/Banana8 4
+        weight: 1
+      - path: joint1/joint2/joint3/joint47
+        weight: 1
+      - path: joint1/joint2/joint3/joint47/Banana8 5
+        weight: 1
+      - path: joint1/joint2/joint3/joint48
+        weight: 1
+      - path: joint1/joint2/joint3/joint48/Banana8 6
+        weight: 1
+      - path: joint1/joint2/joint3/joint49
+        weight: 1
+      - path: joint1/joint2/joint3/joint49/Banana8 7
+        weight: 1
+      - path: joint1/joint2/joint50
+        weight: 1
+      - path: joint1/joint2/joint50/Banana
+        weight: 1
+      - path: joint1/joint2/joint51
+        weight: 1
+      - path: joint1/joint2/joint51/Banana 1
+        weight: 1
+      - path: joint1/joint2/joint52
+        weight: 1
+      - path: joint1/joint2/joint52/Banana 2
+        weight: 1
+      - path: joint1/joint2/joint53
+        weight: 1
+      - path: joint1/joint2/joint53/Banana 3
+        weight: 1
+      - path: joint1/joint2/joint54
+        weight: 1
+      - path: joint1/joint2/joint54/Banana 4
+        weight: 1
+      - path: joint1/joint2/joint55
+        weight: 1
+      - path: joint1/joint2/joint55/Banana 5
+        weight: 1
+      - path: joint1/joint2/joint56
+        weight: 1
+      - path: joint1/joint2/joint56/Banana 6
+        weight: 1
+      - path: joint1/joint2/joint57
+        weight: 1
+      - path: joint1/joint2/joint57/Banana 7
+        weight: 1
+      - path: joint1/trunk
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

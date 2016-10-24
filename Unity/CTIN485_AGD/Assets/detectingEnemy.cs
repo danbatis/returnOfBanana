@@ -17,18 +17,18 @@ public class detectingEnemy : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {
-        if(col.gameObject.tag == "Untagged")
+        if(col.gameObject.tag == "enemy")
         {
             enemies.Add(col.gameObject);
             print("soug");
         }
-        print(col.gameObject.tag);
-        print(col.gameObject.name);
+        //print(col.gameObject.tag);
+        //print(col.gameObject.name);
     }
 
     void OnTriggerExit(Collider col)
     {
-        if(col.gameObject.tag == "Untagged")
+        if(col.gameObject.tag == "enemy")
         {
             enemies.Remove(col.gameObject);
         }

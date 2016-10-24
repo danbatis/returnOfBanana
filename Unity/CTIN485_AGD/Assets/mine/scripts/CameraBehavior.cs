@@ -9,6 +9,8 @@ public class CameraBehavior : MonoBehaviour {
     public float camRotSpeed = 80f;
     public float cameraDistance = 10f;
 
+	private bool pausedGame;
+
     //Used to track if the camera will collide with anything
     float currentDistance;
 
@@ -19,6 +21,15 @@ public class CameraBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyDown ("escape")) {
+			if (pausedGame) {
+				Time.timeScale = 1;
+				pausedGame = false;
+			} else {
+				pausedGame = true;
+				Time.timeScale = 0;
+			}
+		}
 
         //Floats for camera movement
         float horizontal = Input.GetAxis("Horizontal") * horizSpeed * Time.deltaTime;

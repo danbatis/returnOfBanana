@@ -14,11 +14,13 @@ public class PlayerNavigation : MonoBehaviour, SelectableObject {
 
     Vector3 lastUserCommandLocation;
     public bool notDigesting;
+	public Material rendererMaterial;
     
     
     // Use this for initialization
     void Start () {
         navigationAgent = GetComponent<NavMeshAgent>();
+		rendererMaterial = GameObject.Find(gameObject.name+"/pasted__sternum2/pasted__sternum2_MeshPart4").GetComponent<Renderer>().material;
         notDigesting = true;
         WeMoving = false;
 
@@ -39,7 +41,7 @@ public class PlayerNavigation : MonoBehaviour, SelectableObject {
             navigationAgent.SetDestination(patrol);
             ReverseDirection *= -1f;
             WeMoving = true;
-            print(patrol);
+            //print(patrol);
         }
         if (navigationAgent.remainingDistance <=0f)
         {
@@ -83,13 +85,17 @@ public class PlayerNavigation : MonoBehaviour, SelectableObject {
     //this object has been selected
     void SelectableObject.Selected()
     {
-
+		Debug.Log ("selected me: "+gameObject.name);
+		//give the object some emission color to highlight it, so the player knows it's selected
+		rendererMaterial.SetColor("_EmissionColor", new Color(0.0f, 0.6f, 0.0f));
     }
 
     //this object has been unselected
     void SelectableObject.Unselected()
     {
-
+		Debug.Log ("unselected me: "+gameObject.name);
+		//set the object's emission color back to black to remove the highlight
+		rendererMaterial.SetColor("_EmissionColor", new Color(0, 0, 0));
     }
 
     //the player has right clicked somewhere on the screen while this object is selected
