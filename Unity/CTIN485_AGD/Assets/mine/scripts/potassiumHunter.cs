@@ -4,7 +4,7 @@ using System.Collections;
 public class potassiumHunter : MonoBehaviour {
 
 	private NavMeshAgent navAgent;
-	private Transform bananaBunchTarget;
+	public Transform bananaBunchTarget;
 	private bananaBunchWanderer bananaBunchControl;
 	private Transform myTransform;
 	private Animation anim;
@@ -49,26 +49,33 @@ public class potassiumHunter : MonoBehaviour {
 		switch (huntState) {
 		case states.waiting:
 			anim.CrossFade ("Idle", 0.3f);
-			if (Vector3.Distance (myTransform.position,bananaBunchTarget.position) <= navAgent.stoppingDistance+minDist) {
-				StartCoroutine (AttackBanana());
+			if (bananaBunchTarget != null) {
+				if (Vector3.Distance (myTransform.position, bananaBunchTarget.position) <= navAgent.stoppingDistance + minDist) {
+					StartCoroutine (AttackBanana ());
+				}
 			}
 			break;
 		case states.inpursuit:
-			Debug.DrawLine (myTransform.position,bananaBunchTarget.position, new Color(0.5f,0.0f,0.5f));
-			anim.CrossFade ("Walk",0.3f);
-			if (Vector3.Distance (myTransform.position,bananaBunchTarget.position) <= navAgent.stoppingDistance+minDist) {
-				StartCoroutine (AttackBanana());
-			}
-			if (!navAgent.pathPending) {			
-				if (navAgent.remainingDistance <= navAgent.stoppingDistance) {
-					if (!navAgent.hasPath || navAgent.velocity.sqrMagnitude == 0f) {
-						//arrived at current old destination, check if target is close
-						if (Vector3.Distance (myTransform.position, bananaBunchTarget.position) <= navAgent.stoppingDistance+minDist)
-							StartCoroutine (AttackBanana ());
-						else
-							navAgent.SetDestination (bananaBunchTarget.position);
+			if (bananaBunchTarget != null) {
+				Debug.DrawLine (myTransform.position, bananaBunchTarget.position, new Color (0.5f, 0.0f, 0.5f));
+				anim.CrossFade ("Walk", 0.3f);
+				if (Vector3.Distance (myTransform.position, bananaBunchTarget.position) <= navAgent.stoppingDistance + minDist) {
+					StartCoroutine (AttackBanana ());
+				}
+				if (!navAgent.pathPending) {			
+					if (navAgent.remainingDistance <= navAgent.stoppingDistance) {
+						if (!navAgent.hasPath || navAgent.velocity.sqrMagnitude == 0f) {
+							//arrived at current old destination, check if target is close
+							if (Vector3.Distance (myTransform.position, bananaBunchTarget.position) <= navAgent.stoppingDistance + minDist)
+								StartCoroutine (AttackBanana ());
+							else
+								navAgent.SetDestination (bananaBunchTarget.position);
+						}
 					}
 				}
+			} 
+			else {
+				PickABunch ();
 			}
 			break;
 		case states.attacking:
@@ -95,6 +102,7 @@ public class potassiumHunter : MonoBehaviour {
 			bananaBunchTarget = bananaBunches [randomIndex].transform;
 			bananaBunchControl = bananaBunches [randomIndex].GetComponent<bananaBunchWanderer> ();
 			navAgent.SetDestination (bananaBunchTarget.position);
+			navAgent.Resume ();
 			huntState = states.inpursuit;
 		}
 	}
